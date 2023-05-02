@@ -30,24 +30,9 @@ These instructions will help you set up the project on your local machine for de
 4. Install the required dependencies:
 
 5. Install important module
-#### Ubuntu: 
 
-```sh
-
-sudo apt-get update
-sudo apt-get install build-essential cmake
-sudo apt-get install libopenblas-dev liblapack-dev 
-sudo apt-get install libx11-dev libgtk-3-dev
-sudo apt-get install python3 python3-dev python3-pip
 ```
-### Mac:
-```sh
-
-brew install cmake pkg-config
-brew install jpeg libpng libtiff openexr
-brew install eigen tbb
-```
-#### Other Requirements
+#### Requirements
 ```shell
 pip3 install dlib
 pip install opencv-python
@@ -63,7 +48,7 @@ pip install -r requirements.txt
    1. ```python manage.py createsuperuser```
 
 
-8. Open your web browser and navigate to `http://127.0.0.1:8000/` to access the application.
+
 
 ## Usage
 
