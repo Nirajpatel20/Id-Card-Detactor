@@ -39,8 +39,14 @@ pip install opencv-python
 pip install mtcnn
 pip install -r requirements.txt
 ```
+6. Apply database migrations
+   1. ```python manage.py makmigrations```
+   2. ```python manage.py migrate```
+7. Create Super User:
+   1. ```python manage.py createsuperuser```
 
 
+8. Open your web browser and navigate to `http://127.0.0.1:8000/` to access the application.
 
 
 
